@@ -1,0 +1,16 @@
+{
+  "homepage": "https://github.com/tuananh582/check.git",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build", 
+    "deploy": "gh-pages -d build" 
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0"
+   
+
+  }
+}
